@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend developer | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">frontend developer<span>.</span></a>
+
+            <button class="menu-btn" id="menuBtn"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#journey">My Journey</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hi, I'm <span></span></h1>
+                <h2>Aspiring Frontend Developer</h2>
+
+                <p class="intro">
+                    I am a Computer Science Engineering student
+                    learning web development and building projects
+                    to improve my technical skills.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Projects</a>
+                    <a href="#journey" class="btn btn-outline">
+                        My Learning Journey
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="avatar">SS</div>
+                <h3></h3>
+                <p>B.Tech CSE Student</p>
+                <p class="small-text">Learning • Building • Growing</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+
+            <p class="section-text">
+                I am a final-year B.Tech Computer Science Engineering
+                student. I am interested in frontend development and
+                enjoy learning how to create useful and attractive
+                websites. I am currently improving my programming
+                and web development skills through practical projects.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <p class="section-label">WHAT I AM LEARNING</p>
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span>🌐</span>
+                    <h3>HTML</h3>
+                    <p>Webpage structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>🎨</span>
+                    <h3>CSS</h3>
+                    <p>Styling and layouts</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>Currently learning</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>🐍</span>
+                    <h3>Python</h3>
+                    <p>Basic programming</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <p class="section-label">MY WORK</p>
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+
+                <!-- Hangman Game -->
+                <article class="project-card">
+                    <div class="project-icon">🎮</div>
+                    <h3>Hangman Game</h3>
+
+                    <p>
+                        A Python word-guessing game using loops,
+                        conditions, strings and random selection.
+                    </p>
+
+                    <span class="tag">Python</span>
+
+                    <p>
+                        <a href="https://github.com/Snehasoni5586/CodeAlpha_hangman_game"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Project →
+                        </a>
+                    </p>
+                </article>
+
+                <!-- Stock Portfolio Tracker -->
+                <article class="project-card">
+                    <div class="project-icon">📈</div>
+                    <h3>Stock Portfolio Tracker</h3>
+
+                    <p>
+                        A beginner Python project to practice
+                        investment calculations and data handling.
+                    </p>
+
+                    <span class="tag">Python</span>
+
+                    <p>
+                        <a href="https://github.com/Snehasoni5586/CodeAlpha_hangman_game/blob/main/stock_portfolio_tracker.py"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View Project →
+                        </a>
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- My Learning Journey -->
+        <section class="section contact-section" id="journey">
+            <p class="section-label">MY PROGRESS</p>
+            <h2 class="section-title">My Learning Journey</h2>
+
+            <p class="section-text">
+                My learning journey is focused on improving my
+                technical knowledge and developing practical skills.
+                I am learning HTML to build webpage structures,
+                CSS to design attractive layouts, JavaScript to add
+                interactivity, and Python for basic programming.
+                I practice these skills by creating projects and
+                learning from my mistakes.
+            </p>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span>📚</span>
+                    <h3>Learn</h3>
+                    <p>Understand web development concepts.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>💻</span>
+                    <h3>Practice</h3>
+                    <p>Write code and build small projects.</p>
+                </div>
+
+                <div class="skill-card">
+                    <span>🚀</span>
+                    <h3>Improve</h3>
+                    <p>Develop my skills step by step.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Sneha Soni. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
